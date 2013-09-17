@@ -1,0 +1,15 @@
+{
+	"title": "Levitate Node.JS",
+	"tagline": "Exploit Development Platform",
+	"image": "app.png",
+	"theme": "red",
+	"date_modified": true,
+	"timezone": "Europe/Istanbul",
+	"twitter": ["vertexclique", "LevitatePlatf"],
+	"google_analytics": "",
+	"links": {
+		"Download": "https://github.com/levitate/levitate/archive/master.zip",
+		"GitHub Repo": "https://github.com/levitate/levitate",
+		"Help/Support/Bugs": "http://levitateplatform.org/tracker/thebuggenie"
+	}
+}

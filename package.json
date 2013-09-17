@@ -1,0 +1,56 @@
+{
+  "description": "Levitate is an exploit development platform",
+  "version": "0.1.0",
+  "bin" : "./bin/levitate",
+  "main": "levitate",
+  "preferGlobal": true,
+  "dependencies": {
+    "celeri": "~>0.3.2",
+    "winston": "~>0.6.2",
+    "urlsafe-base64": "~>0.0.2",
+    "underscore": "~>1.5.1",
+    "sync": "*",
+    "cli-color": "~>0.2.3",
+    "lazy": "~>1.0.11",
+    "hash_file": "*",
+    "gitteh": "~>0.17.2"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "scripts": {
+    "start": "node ./bin/levitate repl",
+    "test": "mocha -t 0 --reporter nyan"
+  },
+  "directories": {
+    "lib": "lib",
+    "example": "examples",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/levitate/levitate.git"
+  },
+  "bugs": {"url": "http://github.com/levitate/levitate/issues"},
+  "keywords": [
+    "levitate",
+    "exploit",
+    "platform",
+    "security",
+    "framework",
+    "vulnerability"
+  ],
+  "licenses" : [
+    {
+      "type" : "MIT",
+      "url" : "http://github.com/levitate/levitate/raw/master/LICENSE"
+    }
+  ],
+  "name": "levitate",
+  "author": "Mahmut Bulut <mahmut@mahmutbulut.com> (http://mahmutbulut.com/)",
+  "homepage": "http://levitateplatform.org"
+}

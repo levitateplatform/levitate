@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+var µ = require('../levitate'),
+	clc = require('cli-color');
+
+process.argv.forEach(function (val, index, array) {
+  if(val == '-r' || val == 'repl'){
+	var levrepl = require("repl").start(
+		{
+		  prompt: "Levitate - µ > "
+		}
+		);
+	["../levitate"].forEach(function(modName){
+	    levrepl.context[modName] = require(modName); 
+	});
+  }else if(val == '-f' || val == 'fetch'){
+  	projname = array[3];
+  	projpath = array[4];
+  	µ.extendWith(projname, projpath);
+  }else if(val == '-h' || val == '--help' || val == 'help'){
+  	var str = "Usage\n------------\n\n\n-h, --help, help : Give this help output\n"
+  	+"-r, repl : Start repl with levitate loaded\n"
+  	+"-f, fetch projectname projectgit : Fetches the project from remote\n\n\n";
+  		console.log(clc.blue(str));
+  }
+});
