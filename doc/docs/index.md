@@ -12,13 +12,14 @@
 * Packing
 * Unpacking
 * Decoding, Encoding strings
+* File processing
+* Digests
 * Float type single precision hex representation
 * HexDump
 * Regex (ongoing)
-* Flexibility for expanding your own methods and bases.
+* ExpandIt - Flexibility for expanding your own methods and bases.
 * Load NPM module without any hesitation on the fly
 * Calls (Async [built-in callback] & Sync[Fibers])
-* File processing
 
 <div class="clear"></div>
 <hr/>

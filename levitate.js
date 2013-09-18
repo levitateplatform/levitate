@@ -8,7 +8,8 @@ var levhexdump = require('./lib/base/levhexdump')
 
 var levextern = require('./lib/external/levextern')
 
-var Sync = require('sync');
+var sync = require('sync');
+var async = require('async');
 
 //============================
 
@@ -23,4 +24,5 @@ module.exports = _.extend(
 	levhexdump,
 	levextern);
 
-module.exports.sync = Sync;
+module.exports.sync = sync;
+module.exports.async = async;

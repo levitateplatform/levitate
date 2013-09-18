@@ -31,10 +31,10 @@ describe('Levitate Array', function(){
     })
   }),
 
-  describe('#strtobytes()', function(){
-    it('should convert string [utf-8] to byte array', function(){
+  describe('#strtodec()', function(){
+    it('should convert string [utf-8] to dec array', function(){
     	var test = 'BB';
-    	assert.deepEqual(levarray.strtobytes(test), [66, 66]);
+    	assert.deepEqual(levarray.strtodec(test), [66, 66]);
     })
   }),
 
@@ -45,7 +45,7 @@ describe('Levitate Array', function(){
   }),
 
   describe('#chars()', function(){
-    it('should convert byte array to character array', function(){
+    it('should convert hex array to character array', function(){
     	assert.deepEqual(levarray.chars([0x41, 0x41, 0x20]), ["A", "A", " "]);
     })
   }),
