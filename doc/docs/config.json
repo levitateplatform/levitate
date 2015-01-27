@@ -1,6 +1,6 @@
 {
 	"title": "Levitate Node.JS",
-	"tagline": "Exploit Development Platform",
+	"tagline": "Reverse Engineering and Static Malware Analysis Platform",
 	"image": "app.png",
 	"theme": "red",
 	"date_modified": true,
@@ -9,7 +9,7 @@
 	"google_analytics": "",
 	"links": {
 		"Download": "https://github.com/levitate/levitate/archive/master.zip",
-		"GitHub Repo": "https://github.com/levitate/levitate",
-		"Help/Support/Bugs": "http://levitateplatform.org/tracker/thebuggenie"
+		"GitHub Repo": "https://github.com/levitateplatform/levitate",
+		"Help/Support/Bugs": "http://github.com/levitateplatform/levitate/issues"
 	}
 }

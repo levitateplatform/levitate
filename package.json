@@ -1,5 +1,5 @@
 {
-  "description": "Levitate is an exploit development platform",
+  "description": "Levitate is a Reverse Engineering and Static Malware Analysis Platform",
   "version": "0.1.0",
   "bin" : "./bin/levitate",
   "main": "levitate",
@@ -40,10 +40,14 @@
   "bugs": {"url": "http://github.com/levitateplatform/levitate/issues"},
   "keywords": [
     "levitate",
-    "exploit",
-    "platform",
-    "security",
+    "reverse",
     "framework",
+    "security",
+    "malware",
+    "static",
+    "analysis",
+    "reversing",
+    "engineering",
     "vulnerability"
   ],
   "licenses" : [
@@ -54,5 +58,5 @@
   ],
   "name": "levitate",
   "author": "Mahmut Bulut <mahmut@mahmutbulut.com> (http://mahmutbulut.com/)",
-  "homepage": "http://levitateplatform.org"
+  "homepage": "http://mahmutbulut.com/projects/levitate"
 }

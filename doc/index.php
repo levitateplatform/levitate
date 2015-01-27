@@ -140,7 +140,7 @@ if ($homepage && $homepage_url !== '/') {
 				<div class="container">
 					<a class="brand pull-left" href="<?php echo $base_url ?>/<?php echo $homepage_url;?>"><?php echo $options['title']; ?></a>
 					<p class="navbar-text pull-right">
-						<a href="http://levitateplatform.org">Levitate Node.JS</a>
+						<a href="http://mahmutbulut.com/projects/levitate">Levitate Node.JS</a>
 					</p>
 				</div>
 			</div>

@@ -23,7 +23,7 @@
 * Load NPM module without any hesitation on the fly
 * Calls (Async [built-in callback] & Sync[Fibers])
 
-[Documentation is in here!](http://levitateplatform.org/nodejsdoc)
+[Documentation is in here!](http://mahmutbulut.com/projects/levitate)
 
 <div class="clear"></div>
 <hr/>
